@@ -7,13 +7,25 @@ Version 2.19.0
 --------------
 (unreleased)
 
+- New lexers:
+
+  * Debian Sources (#2788, #2747)
+  * Gleam (#2662)
+  * JSON5 (#2734, #1880)
+  * TableGen (#2751)
+
 - Updated lexers:
 
-  * C#: Fix number highlighting (#986, #2727), add ``file`` keyword (#2726)
+  * C#: Fix number highlighting (#986, #2727), add ``file`` keyword (#2726), add various other keywords (#2745, #2770)
   * Debian control: Add ``Change-By`` field (#2757)
   * Elip: Improve punctuation handling (#2651)
+  * Ini: Fix quoted strings with embedded comment characters (#2767, #2720)
+  * Java: Support functions returning types containing a question mark (#2737)
+  * JavaScript: Support private identiiers (#2729, #2671)
+  * PostgreSQL: Add more ``EXPLAIN`` keywords (#2785)
   * S-Lexer: Fix keywords (#2082, #2750)
   * TransactSQL: Fix single-line comments (#2717)
+  * Typst: Various improvements (#2724)
   * Vyper: Add ``staticcall`` and ``extcall`` (#2719)
 
 * Mark file extensions for ``HTML/XML+Evoque`` as aliases (#2743)
